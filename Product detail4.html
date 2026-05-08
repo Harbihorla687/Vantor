@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Vantor Leathers</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+    <div class="contanier">
+        <div class="navbar">
+         <div class="logo">
+           <a href="index.html">
+             <img src="images/logo.jpg" width="125px">
+           </a>
+      </div>
+      <nav>
+          <ul id="MenuItems">
+              <li><a href="index.html">HOME</a> </li>
+              <li><a href="product.html">PRODUCT</a> </li>
+              <li><a href="">ABOUT</a> </li>
+              <li><a href="">CONTACT</a> </li>
+              <li><a href="account.html">ACCOUNT</a> </li>
+          </ul>
+      </nav>
+      <a href="cart.html">
+        <img src="Images/cart.jpg" width="30px" height="30px">
+      </a>
+      <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    </div>
+  </div>
+
+<!--------- single product details -------->
+
+     <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2"></div>
+                  <img src="Images/120.jpg" width="70%">
+            </div>
+            <div class="col-2">
+                <h1>Vantor Saddle</h1>
+                <h4>₦35,000</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>L</option>
+                    <option>XL</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">Add to Cart &#8594</a>
+                <h3>Product Details <i class="fa fa-indent"></i></h3>
+                <p>Vantor Saddle is crafted for professionals who value elegance, confidence, and functionality. Designed with premium materials and refined detailing, every piece delivers sophistication for the modern business lifestyle.</p>
+            </div>
+        </div>
+     </div>
+
+<!--------title-------->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <p>View more</p>
+
+     </div>
+
+   <div class="small-container">
+       
+     
+<div class="row">
+        <div class="col-4">
+            <img src="Images/720.jpg">
+            <h4>Vantor Royale</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>₦50,000</p>
+        </div>
+         <div class="col-4">
+            <img src="Images/760.jpg">
+            <h4>Vantor Ridge </h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>₦15,000</p>
+        </div>
+         <div class="col-4">
+            <img src="Images/890.jpg">
+            <h4>Vantor Bold</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>₦20,000</p>
+        </div>
+         <div class="col-4">
+            <img src="Images/850.jpg">
+            <h4>Vantor Urban</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>                
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>₦20,000</p>
+         </div>
+          
+        </div>    
+        
+        
+    </div>
+
+
+<!----------- footer ----------->
+
+  <div class="footer">
+      <div class="contanier">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Useful Links</h3>
+        <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+        </ul>
+    </div>
+    <div class="footer-col-2">
+        <h3>Follow Us</h3>
+        <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>X</li>
+        </ul>
+    </div>
+        </div>
+        <hr>
+        <p class="copyright">© 2026 VANTOR Leather. All Rights Reserved.</p>
+      </div>
+  </div>
+
+<!----------js for toggle menu---------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }       
+     }
+    </script>
+</body>
+</html>    
